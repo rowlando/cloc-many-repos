@@ -1,0 +1,13 @@
+name: Count lines of SQL
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Count
+    steps:
+      - name: Count lines of code (cloc)
+        uses: djdefi/cloc-action@2
