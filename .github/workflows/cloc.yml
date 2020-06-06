@@ -6,9 +6,11 @@ on:
       - master
 
 jobs:
-  build:
-    name: Count
+  count_lines_job:
     runs-on: ubuntu-latest
+    name: Count lines
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Count lines of code (cloc)
         uses: djdefi/cloc-action@2
