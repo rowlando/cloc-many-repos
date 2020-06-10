@@ -6,4 +6,4 @@ cd "$TEMP_GIT_REPOS_DIR"
 # clone repos
 while read line; do
   ../clone_or_pull.sh ${line}
-done < "${1:-/dev/stdin}"
+done < /dev/stdin
