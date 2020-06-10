@@ -1,0 +1,15 @@
+cclf
+ccr
+laa-apex
+laa-cclf-data-injection
+laa-cccd-data-injection-batch
+laa_ccms_capgemini_oracle
+laa-ccms-pui
+laa-ccms-provider-details-api
+laa-cis
+laa-cwa
+laa-eric-emi
+laa-hub-application
+laa-maat-application
+laa-maat-database
+laa-mlra-application
