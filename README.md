@@ -27,6 +27,6 @@ Run `cloc_repos.sh < repolist.txt`
 The reports are stored in `reports` directory.
 
 ### 5. Combine reports
-Run `sum_reports.sh`
+Run `combine_reports.sh`
 
 The report combination produces two output files, one for sums by programming language (sumofrepos.lang) and one by project (sumofrepos.file).
