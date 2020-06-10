@@ -10,6 +10,6 @@ cd $TEMP_GIT_REPOS_DIR
 while read repo; do
   pwd
   cd ${repo}
-  cloc --vcs git --out "../../$TEMP_REPORTS_DIR/$line"
+  cloc --vcs git --out "../../$TEMP_REPORTS_DIR/$repo"
   cd ..
 done < /dev/stdin
