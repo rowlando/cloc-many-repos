@@ -1,4 +1,15 @@
-# testcloc
+# Count lines of code
 
-Testing whether Cloc action runs on push
-Trigger it again
+Counts lines of code across a single GitHub organisation.
+
+
+## Prerequisite
+
+- [cloc](https://github.com/AlDanial/cloc) is available on the path
+
+## Usage
+
+1. Configure `GIT_URL` in `clone_or_pull.sh` with correct git base url.
+2. Create list of repository names and store in file, e.g. `repos.txt`. See [example/repos.txt](example/repos.txt)
+3. Run `./clone_repos < <file with list>`, e.g. `./clone_repos < repos.txt`
+4. 
